@@ -31,10 +31,10 @@ ip_info=`curl -sk https://ip.cooluc.com`;
 # script url
 if [ "$isCN" = "CN" ]; then
 #    export mirror=init.cooluc.com
-    export miiror=raw.githubusercontent.com/SpaHuang/r4s_build_script/master
+    export mirror=raw.githubusercontent.com/SpaHuang/r4s_build_script/master
 else
 #    export mirror=init2.cooluc.com
-    export miiror=raw.githubusercontent.com/SpaHuang/r4s_build_script/master 
+    export mirror=raw.githubusercontent.com/SpaHuang/r4s_build_script/master 
 fi
 
 # github actions - automatically retrieve `github raw` links
